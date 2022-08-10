@@ -1,0 +1,51 @@
+<head>
+  <title>E-Commerce</title>
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="header">
+    <mat-toolbar class="bar">
+      <button
+        mat-icon-button
+        class="menu-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <div class="box"><span class="text">MY SHOP</span></div>
+      <div class="header_menu_searchbar">
+        <input
+          type="text"
+          class="header_menu_input"
+          placeholder="search products"
+        />
+      </div>
+      <span class="sample"></span>
+      <button class="product-link" (click)="onButtonClicked()">Products</button>
+      <button
+        mat-icon-button
+        class="favorite-icon"
+        aria-label="Example icon-button with heart icon"
+      >
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <div class="btshare">
+        <button
+          mat-icon-button
+          class="share-icon"
+          aria-label="Example icon-button with share icon"
+        >
+          <mat-icon>share</mat-icon>
+        </button>
+      </div>
+      <div class="troley">
+        <mat-icon class="wheel">add_shopping_cart</mat-icon>
+      </div>
+    </mat-toolbar>
+  </nav>
+  <router-outlet></router-outlet>
+</body>

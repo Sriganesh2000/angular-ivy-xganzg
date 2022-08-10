@@ -1,0 +1,77 @@
+.header {
+  background-color: rgb(0, 0, 0);
+  margin-top: -8px;
+  margin-left: -16px;
+  margin-right: -16px;
+  padding: 20px;
+  display: flex;
+}
+.bar {
+  background-color: rgb(0, 0, 0);
+}
+.sample {
+  flex: 1 1 auto;
+}
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.box {
+  margin-left: 20px;
+}
+.menu-icon {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.favorite-icon {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.share-icon {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.product-link {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  font-size: larger;
+  margin-right: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.header_menu_input {
+  margin-top: 10px;
+  height: 38px;
+  width: 800px;
+  text-align: center;
+}
+.troley {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 8px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.btshare {
+  margin-left: 10px;
+}
+.btpro {
+  margin-right: 50px;
+}
+.header_menu_searchbar {
+  margin-left: 80px;
+}

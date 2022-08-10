@@ -1,0 +1,23 @@
+.container {
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.name {
+  text-align: center;
+  font-family: sans-serif;
+}
+.product-img {
+  object-fit: cover;
+  width: 60%;
+  height: 200px;
+}
+.pds {
+  object-fit: cover;
+  width: 10%;
+  height: 200px;
+}
+.product-card {
+  background-color: #bfbfbf;
+ 
+}
